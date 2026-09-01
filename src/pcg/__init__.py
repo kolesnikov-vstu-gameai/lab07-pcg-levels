@@ -1,0 +1,1 @@
+WALL, FLOOR = 1, 0

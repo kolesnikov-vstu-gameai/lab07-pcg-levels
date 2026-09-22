@@ -29,7 +29,7 @@ src/pcg/render.py     PNG-визуализация 10 уровней (или pyg
 ```
 
 ```bash
-pip install -e ".[dev]"
+pip install -r requirements.txt   # или: make install (все команды: make help)
 python -m pcg.render --gen bsp --seeds 10      # results/levels/bsp_<seed>.png
 python -m pcg.stats --gen bsp --n 100
 ```
